@@ -1,6 +1,6 @@
 # Screenshot Checklist
 
-Use these screenshots to demonstrate that the project works, from infrastructure setup to day-to-day IT support tasks.
+Use these screenshots to demonstrate that the project works.
 
 ## Screenshot Progress
 
