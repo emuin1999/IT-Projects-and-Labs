@@ -1,4 +1,4 @@
-#Installing Active Directory Domain Services
+# Installing Active Directory Domain Services
 
 Objective: Install the AD DS role and configure Windows Server as a domain controller.
 
