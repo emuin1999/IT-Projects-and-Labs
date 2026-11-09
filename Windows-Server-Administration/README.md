@@ -3,6 +3,6 @@ This folder contains my hands-on Windows server projects and labs.
 
 ## Projects
 - Active Directory
-- Joining Windows 11 to the domain
+- Joining Windows 11 to the domain (Domain Join)
 - Group Policy
 - File and Folder Permissions 
