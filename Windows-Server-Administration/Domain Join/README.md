@@ -7,7 +7,7 @@ What I did:
 - Configured the client's DNS settings.
 - Connected the client to the wintip.local domain.
 
-  What I Learned:
+What I Learned:
   - Prepared a client machine for connecting to and interacting with the Active Directory domain.
   - Allowed the client machine to access domain resources and policies.
   - Confirmed that the client is part of the organization's Active Directory environment.
