@@ -1,0 +1,5 @@
+# Install Active Directory Domain Services
+What I did: 
+- Installed the Active Directory Domain Services role.
+- Promoted Windows Server to a domain controller.
+- Created the wintip.local domain.
