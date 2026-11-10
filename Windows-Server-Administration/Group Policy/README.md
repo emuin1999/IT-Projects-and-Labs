@@ -12,3 +12,11 @@ What I did:
 - Applied the policy to the appropriate domain environment.
 - Used gpupdate /force to refresh Group Policy.
 - Verify that GPOs works(control panel).
+
+What I Learned:
+- Demonstrated centralized security management through Active Directory.
+- Verified communication between the client and Domain Controller.
+- Used Active Directory to organize and manage domain resources.
+- Simplified resource management across domain computers.
+- Restricted access to departmental shared folders.
+- Simplified access to departmental files.
