@@ -7,11 +7,7 @@ What I did:
 - Configured the client's DNS settings.
 - Connected the client to the wintip.local domain.
 
-What I Learned:
-  - Prepared a client machine for connecting to and interacting with the Active Directory domain.
-  - Allowed the client machine to access domain resources and policies.
-  - Confirmed that the client is part of the organization's Active Directory environment.
-  - Used the ping command to verify communication between the two machines.
-  - Confirmed that the client can reach the server using its IP address.
-  - Established the network configuration needed for the client to locate and communicate with the Active Directory Domain Controller
-  - Verified that the server's network configuration supports communication with other machines on the network.
+## What I Learned:
+I learned how to create and configure a Windows 11 virtual machine using VMware and prepare it to communicate with a Windows Server. I gained hands-on experience configuring network settings and establishing communication between a client machine and a server.
+I also learned how to check the server's static IP address using the ipconfig /all command and use that information to configure the client's network settings. I practiced using the ping command to test connectivity and verify that both virtual machines could communicate.
+Finally, I learned how to connect the Windows 11 client machine to the wintip.local domain. This helped me understand how client computers communicate with a Domain Controller and how users can access a centralized Active Directory environment.
