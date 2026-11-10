@@ -6,13 +6,12 @@ Use these screenshots to demonstrate that the project works, from infrastructure
 
 | # | Screenshot | What It Proves | 
 |---|---|---|
-| 01 | Windows Server DC in VirtualBox | Lab infrastructure includes a Windows Server domain controller. 
-| 02 | Windows 10 Client in VirtualBox | A client machine was used for real domain testing. 
-| 03 | Windows 10 Client Joined to Domain | The workstation successfully joined the AD domain. 
-| 04 | AD Users and Security Groups | Users and security groups exist inside Active Directory. 
-| 05 | Searching for User in AD | Basic help desk user lookup workflow. 
-| 06 | Password Reset in AD | Password reset support workflow. 
-| 07 | Account Lockout Policy | Account lockout policy configured for failed sign-in attempts. 
-| 08 | Account Locked After Wrong Attempts | The lockout policy was tested successfully. 
-| 09 | Unlocking User Account | Account unlock support workflow. 
-| 10 | Password Policy | Password policy configured with minimum length and expiry. 
+| 01 | Configure Password Policy GPO | Configured password requirements through Group Policy and established password complexity requirements.. 
+| 02 | Configure Account Lockout Policy| Configured account lockout thresholds, established the number of failed login attempts allowed and configured account lockout duration.
+| 03 | Restrict Control Panel | Used Group Policy to restrict access to Control Panel.
+| 04 | Configure Automatic Network Drives | Configured network drives for domain users.
+| 05 | Configure Network Drives Using Item-Level Targeting| Configured Item-Level Targeting within Group Policy Preferences.
+| 06 | Configure Drives Using Group Policy Preferences | Used Group Policy Preferences to create and manage mapped drives.
+| 07 | Apply GPOs to OUs | Successfully linked Group Policy Objects (GPOs) to the appropriate Organizational Units (OUs).
+| 08 | Refresh Group Policy | Used Command Prompt to manually refresh Group Policy settings. 
+| 09 | Verify That GPOs Work | Verified that Control Panel restrictions were enforced on the client machine.
