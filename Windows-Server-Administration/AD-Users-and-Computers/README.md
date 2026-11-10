@@ -8,7 +8,7 @@ What I did:
 - Organized domain users according to their respective departments.
 - Established a structured directory to simplify user management and Group Policy administration.
 
-What I Learned: 
+## What I Learned: 
 Through this project, I learned how to create and organize a company structure in Active Directory using Organizational Units (OUs).
 I created a company OU named LexCorp and established three departmental OUs: IT, Sales, and HR.
 I also learned how to create domain users, Security Groups, and Folder Access Groups for each department. 
