@@ -5,13 +5,10 @@ Use these screenshots to demonstrate that the project works.
 
 | # | Screenshot | What It Proves | 
 |---|---|---|
-| 01 | Windows Server DC in VirtualBox | Lab infrastructure includes a Windows Server domain controller. 
-| 02 | Windows 10 Client in VirtualBox | A client machine was used for real domain testing. 
-| 03 | Windows 10 Client Joined to Domain | The workstation successfully joined the AD domain. 
-| 04 | AD Users and Security Groups | Users and security groups exist inside Active Directory. 
-| 05 | Searching for User in AD | Basic help desk user lookup workflow. 
-| 06 | Password Reset in AD | Password reset support workflow. 
-| 07 | Account Lockout Policy | Account lockout policy configured for failed sign-in attempts. 
-| 08 | Account Locked After Wrong Attempts | The lockout policy was tested successfully. 
-| 09 | Unlocking User Account | Account unlock support workflow. 
-| 10 | Password Policy | Password policy configured with minimum length and expiry. 
+| 01 | Create Company OU| Created a company OU named LexCorp. 
+| 02 | Create Company three main OUs| Created IT, Sales, and HR company department. 
+| 03 | Made groups for each department | Made a Security Group and Folder Access Group for each department
+| 04 | Nested Groups |Users go into a department security group which goes into a folder access group. Folder access group is assigned to share resources. 
+| 05 | Add users | Create users for each department.
+| 06 | Add users to groups| Add users to each security group, security group goes into folder access group this method separate identity form resource access. 
+ 
