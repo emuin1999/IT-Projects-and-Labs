@@ -7,3 +7,8 @@ What I did:
 - Added Users and Groups.
 - Organized domain users according to their respective departments.
 - Established a structured directory to simplify user management and Group Policy administration.
+
+What I Learned: 
+- Created domain user accounts and security groups.
+- Organized users according to their respective departments.
+- Established a structured Active Directory environment for centralized user and group management.
