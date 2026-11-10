@@ -11,7 +11,7 @@ Use these screenshots to demonstrate that the project works, from infrastructure
 | 03 | Restrict Control Panel | Used Group Policy to restrict access to Control Panel.
 | 04 | Configure Automatic Network Drives | Configured network drives for domain users.
 | 05 | Configure Network Drives Using Item-Level Targeting| Configured Item-Level Targeting within Group Policy Preferences.
-| 06 | Configure Drives Using Group Policy Preferences | Used Group Policy Preferences to create and manage mapped drives.
+| 06 | Configure Drives Using Group Policy Preferences | Used Group Policy Preferences to create and manage mapped drives.Automated network drive assignments.
 | 07 | Apply GPOs to OUs | Successfully linked Group Policy Objects (GPOs) to the appropriate Organizational Units (OUs).
 | 08 | Refresh Group Policy | Used Command Prompt to manually refresh Group Policy settings. 
 | 09 | Verify That GPOs Work | Verified that Control Panel restrictions were enforced on the client machine.
