@@ -4,5 +4,6 @@ Objective: Organize Active Directory users and computers into separate departmen
 What I did:
 - Opened Active Directory Users and Computers (ADUC).
 - Created three Organizational Units (OUs): HR, IT, and Sales.
+- Added Users and Groups.
 - Organized domain users according to their respective departments.
 - Established a structured directory to simplify user management and Group Policy administration.
