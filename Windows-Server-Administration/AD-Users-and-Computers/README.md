@@ -9,6 +9,7 @@ What I did:
 - Established a structured directory to simplify user management and Group Policy administration.
 
 What I Learned: 
-- Created domain user accounts and security groups.
-- Organized users according to their respective departments.
-- Established a structured Active Directory environment for centralized user and group management.
+Through this project, I learned how to create and organize a company structure in Active Directory using Organizational Units (OUs).
+I created a company OU named LexCorp and established three departmental OUs: IT, Sales, and HR.
+I also learned how to create domain users, Security Groups, and Folder Access Groups for each department. 
+I practiced using nested groups (AGDLP) by adding users to their departmental Security Groups and nesting those groups inside Folder Access Groups.
