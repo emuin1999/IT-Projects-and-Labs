@@ -27,6 +27,7 @@ How I resolved it:
 - Test a non-Senior IT Staff account to access the Licenses subfolder.
 
 What I Learned: 
+
 Through these scenarios, I learned how to manage access to shared folders in a Windows Server environment using Active Directory security groups, Share Permissions, and NTFS Permissions.
 
 In Scenario 1, I created an HR Intern security group and assigned users to it. I configured both Share and NTFS permissions to provide read-only access. I then tested the permissions by attempting to delete files and create new folders. These tests helped me understand how permissions restrict users from making unauthorized changes to shared resources.
