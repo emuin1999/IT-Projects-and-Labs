@@ -14,7 +14,7 @@ A HR Intern needs access to the HR Team shared drive folders to view contents bu
 How I resolved it: 
 - Created an HR Intern Group and added users.
 - Give HR Interns users access to the shared drive.
-- Configure the HR Folder share and NTFS permission to only allow read access for Interns.
+- Configure the HR Folder share and NTFS permission to only allow read access for HR Interns Group.
 - Verify the permission using HR Intern credentials on client machine.
 
 ### Scenario 2: 
