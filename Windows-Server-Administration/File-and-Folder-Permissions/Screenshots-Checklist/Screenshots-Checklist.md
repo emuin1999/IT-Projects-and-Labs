@@ -21,4 +21,4 @@ Use these screenshots to demonstrate that the project works.
 | 07 |Created Licenses Folder | Made a subfolder for special users(IT-SeniorStaff).
 | 08 | IT Senior Group Share Permission | Give the IT Senior Group full Control under Share Permission. Also Remove everyone group. 
 | 09 | IT Senior Group NTFS Permission| Give the IT Senior Group full Control under NTFS Permission.
-| 10 | Non IT-SeniorStaff access folder Denied | Attempt to access the Licenses subfolder with a non IT-SeniorStaff.
+| 10 | Non IT-SeniorStaff folder access Denied | Attempt to access the Licenses subfolder with a non IT-SeniorStaff.
