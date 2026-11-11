@@ -23,5 +23,5 @@ In the IT Department, all techs need access to the Software Repository folder ca
 How I resolved it: 
 - Created Senior IT Staff Group.
 - Created the Licenses subfolder
-- Grant Senior IT Staff full control for both share and NTFS permissions.
+- Only grant Senior IT Staff full control for both share and NTFS permissions.
 - Test a non-Senior IT Staff account to access the Licenses subfolder. 
