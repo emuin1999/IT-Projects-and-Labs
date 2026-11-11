@@ -18,7 +18,7 @@ How I resolved it:
 - Verify the permission using HR Intern credentials on client machine.
 
 ### Scenario 2: 
-In the IT Department, all techs need access to the Software Repository Software, but only senior IT staff should be able to access the "Licenses" subfolder
+In the IT Department, all techs need access to the Software Repository folder called Software, but only senior IT staff should be able to access the "Licenses" subfolder
 
 How I resolved it: 
 - Created Senior IT Staff Group.
