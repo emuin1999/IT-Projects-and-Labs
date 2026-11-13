@@ -22,10 +22,3 @@ Use these screenshots to demonstrate that the project works.
 | 14 | Mapping Network Drive for New User | Drive mapping was configured and tested for a domain user. 
 | 15 | Network Drive Mapped Successfully | The user can access the mapped network drive. 
 | 16 | PowerShell Output | Bulk user creation script ran successfully. 
-
-
-
-
-Capture all 16 screenshots, upload them to GitHub, and document what each screenshot demonstrates.
-
-**Note:** Only mark a screenshot as completed after capturing and uploading the actual evidence.
