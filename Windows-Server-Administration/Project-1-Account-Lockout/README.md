@@ -7,7 +7,8 @@ What I did:
 - Recorded the troubleshooting steps taken to investigate the account lockout.
 - Used the ticket to track the issue and document the resolution.
 
-What I Learned:
+## What I Learned:
+
 I learned how to handle a help desk ticket from the moment a user reports an issue until the ticket is resolved and closed. The scenario involved a user who could not log in because their Active Directory account was locked after multiple failed login attempts.
 
 I practiced reviewing the user's ticket, examining the attached screenshot, and accepting the ticket as a help desk technician. I then used Active Directory Users and Computers (ADUC) to locate the user's account, unlock it, and reset their password.
