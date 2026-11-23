@@ -68,7 +68,7 @@ nslookup wintip.local
 Used the following command to check whether the workstation could locate a domain controller.
 
 ```cmd
-nltest /dsgetdc:yourdomain.local
+nltest /dsgetdc:wintip.local
 ```
 
 **Purpose:** Verify that the workstation can discover an available domain controller.
@@ -90,7 +90,7 @@ Updated the Windows 11 client's preferred DNS server to the IP address of the Wi
 Repeated the DNS lookup command:
 
 ```cmd
-nslookup yourdomain.local
+nslookup wintip.local
 ```
 
 Confirmed that the domain name resolved successfully.
@@ -100,7 +100,7 @@ Confirmed that the domain name resolved successfully.
 Executed:
 
 ```cmd
-nltest /dsgetdc:yourdomain.local
+nltest /dsgetdc:wintip.local
 ```
 
 Confirmed that the workstation could locate the domain controller.
