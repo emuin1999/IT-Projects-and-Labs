@@ -58,7 +58,7 @@ ipconfig /all
 Used `nslookup` to determine whether the workstation could resolve the Active Directory domain name.
 
 ```cmd
-nslookup yourdomain.local
+nslookup wintip.local
 ```
 
 **Purpose:** Verify that DNS can resolve the domain name.
