@@ -146,7 +146,7 @@ The DNS settings were corrected to point to the Windows Server domain controller
 - DNS configuration and troubleshooting
 - Windows 11 network configuration
 - Domain controller discovery
-- PowerShell and Command Prompt
+- Command Prompt
 - Remote Desktop troubleshooting
 - Network connectivity testing
 - Help Desk ticket documentation
