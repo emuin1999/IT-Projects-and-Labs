@@ -162,7 +162,8 @@ The following screenshots will document the troubleshooting and resolution proce
 | 02 | Client IP Configuration | Shows incorrect DNS server configuration |
 | 03 | Ping domain controller Ip | Verified connection between the workstation and server.|
 | 04 | Failed DNS Lookup | Demonstrates DNS resolution failure |
-| 05 | Corrected DNS Configuration | Shows DNS pointing to the domain controller |
+| 05 | Verify Domain Controller Discovery | Confirmed that the domain name resolved successfully. |
+| 06 | Incorrect DNS | Shows the client to using an external DNS server. |
 | 06 | Successful DNS Lookup | Demonstrates restored DNS resolution |
 | 07 | Successful Domain Controller Discovery | Confirms the workstation can locate the domain controller |
 | 08 | Resolved Ticket | Documents the repair and final resolution |
