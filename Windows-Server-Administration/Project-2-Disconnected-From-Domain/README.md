@@ -20,7 +20,7 @@ Demonstrate the ability to troubleshoot and resolve an Active Directory domain c
 | Directory Service | Active Directory Domain Services (AD DS) |
 | Network Configuration | Static IP addressing |
 | Remote Support | Remote Desktop Protocol (RDP) |
-| Command-Line Tools | PowerShell, Command Prompt |
+| Command-Line Tools | Command Prompt |
 | DNS Service | Windows Server DNS |
 
 ## Simulated Help Desk Ticket
