@@ -57,10 +57,8 @@ ipconfig /all
 Used the `ping` command to test communication between the Windows 11 workstation and the Windows Server domain controller.
 
 ```cmd
-ping 192.168.1.10
+ping 192.168.181.131
 ```
-
-*Replace the example IP address with your actual domain controller IP address.*
 
 **Purpose:**
 - Verify basic network connectivity between the workstation and server.
@@ -70,7 +68,7 @@ ping 192.168.1.10
 **Expected Successful Result:**
 
 ```text
-Reply from 192.168.1.10: bytes=32 time<1ms TTL=128
+Reply from 192.168.181.131: bytes=32 time<1ms TTL=128
 ```
 
 **Troubleshooting Note:**
