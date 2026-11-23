@@ -115,10 +115,8 @@ Performed additional checks to confirm that the workstation could communicate wi
 |---|---|
 | `ipconfig /all` | Displays IP and DNS configuration |
 | `nslookup` | Tests DNS name resolution |
-| `ipconfig /flushdns` | Clears the local DNS cache |
 | `nltest /dsgetdc:domain.local` | Locates a domain controller |
 | `ping server-IP` | Tests basic network connectivity |
-| `Test-NetConnection server-IP -Port 53` | Tests DNS port connectivity |
 
 ## Resolution
 
