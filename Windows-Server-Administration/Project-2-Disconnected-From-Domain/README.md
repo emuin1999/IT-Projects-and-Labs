@@ -52,8 +52,34 @@ ipconfig /all
 ```
 
 **Purpose:** Identify whether the workstation is configured to use the correct DNS server.
+### Step 2: Test Network Connectivity Using Ping
 
-### Step 2: Test DNS Resolution
+Used the `ping` command to test communication between the Windows 11 workstation and the Windows Server domain controller.
+
+```cmd
+ping 192.168.1.10
+```
+
+*Replace the example IP address with your actual domain controller IP address.*
+
+**Purpose:**
+- Verify basic network connectivity between the workstation and server.
+- Determine whether the domain controller responds to ICMP echo requests.
+- Identify potential network communication issues.
+
+**Expected Successful Result:**
+
+```text
+Reply from 192.168.1.10: bytes=32 time<1ms TTL=128
+```
+
+**Troubleshooting Note:**
+
+If the ping command fails, it does not automatically mean the server is offline. Windows Firewall may be blocking ICMP requests.
+
+
+
+### Step 3: Test DNS Resolution
 
 Used `nslookup` to determine whether the workstation could resolve the Active Directory domain name.
 
@@ -63,7 +89,7 @@ nslookup wintip.local
 
 **Purpose:** Verify that DNS can resolve the domain name.
 
-### Step 3: Verify Domain Controller Discovery
+### Step 4: Verify Domain Controller Discovery
 
 Used the following command to check whether the workstation could locate a domain controller.
 
@@ -73,19 +99,19 @@ nltest /dsgetdc:wintip.local
 
 **Purpose:** Verify that the workstation can discover an available domain controller.
 
-### Step 4: Identify the DNS Configuration Issue
+### Step 5: Identify the DNS Configuration Issue
 
 Inspected the client's network adapter settings and identified an incorrect DNS server configuration.
 
 The workstation was not using the domain controller's IP address as its preferred DNS server.
 
-### Step 5: Correct DNS Configuration
+### Step 6: Correct DNS Configuration
 
 Updated the Windows 11 client's preferred DNS server to the IP address of the Windows Server domain controller.
 
 **Important:** Domain-joined Windows workstations should use the organization's internal DNS server for Active Directory domain resolution.
 
-### Step 6: Verify DNS Resolution
+### Step 7: Verify DNS Resolution
 
 Repeated the DNS lookup command:
 
@@ -95,7 +121,7 @@ nslookup wintip.local
 
 Confirmed that the domain name resolved successfully.
 
-### Step 7: Verify Domain Controller Connectivity
+### Step 8: Verify Domain Controller Connectivity
 
 Executed:
 
@@ -105,7 +131,7 @@ nltest /dsgetdc:wintip.local
 
 Confirmed that the workstation could locate the domain controller.
 
-### Step 8: Verify Domain Connectivity
+### Step 9: Verify Domain Connectivity
 
 Performed additional checks to confirm that the workstation could communicate with the domain controller and access domain resources.
 
