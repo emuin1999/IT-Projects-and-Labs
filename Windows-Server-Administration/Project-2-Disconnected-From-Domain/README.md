@@ -119,17 +119,7 @@ nslookup wintip.local
 
 Confirmed that the domain name resolved successfully.
 
-### Step 8: Verify Domain Controller Connectivity
-
-Executed:
-
-```cmd
-nltest /dsgetdc:wintip.local
-```
-
-Confirmed that the workstation could locate the domain controller.
-
-### Step 9: Verify Domain Connectivity
+### Step 8: Verify Domain Connectivity
 
 Performed additional checks to confirm that the workstation could communicate with the domain controller and access domain resources.
 
