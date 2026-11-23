@@ -161,7 +161,7 @@ The following screenshots will document the troubleshooting and resolution proce
 | 01 | Help Desk Ticket | Employee reports domain connectivity issue |
 | 02 | Client IP Configuration | Shows incorrect DNS server configuration |
 | 03 | Ping domain controller Ip | Verified connection between the workstation and server.|
-| 04 | Domain Controller Discovery | Shows initial domain controller discovery result |
+| 04 | Failed DNS Lookup | Demonstrates DNS resolution failure |
 | 05 | Corrected DNS Configuration | Shows DNS pointing to the domain controller |
 | 06 | Successful DNS Lookup | Demonstrates restored DNS resolution |
 | 07 | Successful Domain Controller Discovery | Confirms the workstation can locate the domain controller |
