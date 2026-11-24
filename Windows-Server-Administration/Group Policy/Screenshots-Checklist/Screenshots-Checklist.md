@@ -4,14 +4,14 @@ Use these screenshots to demonstrate that the project works, from infrastructure
 
 ## Screenshot Progress
 
-| # | Screenshot | What It Proves | 
+| # | Screenshot | What It Proves |
 |---|---|---|
-| 01 | Configure Password Policy GPO | Configured password requirements through Group Policy and established password complexity requirements.. 
-| 02 | Configure Account Lockout Policy| Configured account lockout thresholds, established the number of failed login attempts allowed and configured account lockout duration.
-| 03 | Restrict Control Panel | Used Group Policy to restrict access to Control Panel.
-| 04 | Configure Automatic Network Drives | Configured network drives for domain users.
-| 05 | Configure Network Drives Using Item-Level Targeting| Configured Item-Level Targeting within Group Policy Preferences.
-| 06 | Configure Drives Using Group Policy Preferences | Used Group Policy Preferences to create and manage mapped drives. Automated network drive assignments.
-| 07 | Apply GPOs to OUs | Successfully linked Group Policy Objects (GPOs) to the appropriate Organizational Units (OUs).
-| 08 | Refresh Group Policy | Used Command Prompt to manually refresh Group Policy settings. 
-| 09 | Verify That GPOs Work | Verified that Control Panel restrictions were enforced on the client machine.
+| 01 | Configure Password Policy GPO | Shows password requirements and complexity settings configured through Group Policy. |
+| 02 | Configure Account Lockout Policy | Shows the configured account lockout threshold, duration, and failed login attempt limit. |
+| 03 | Restrict Control Panel | Demonstrates the Group Policy setting used to restrict Control Panel access. |
+| 04 | Configure Automatic Network Drives | Shows the configuration of automatic network drive mapping for domain users. |
+| 05 | Configure Network Drives Using Item-Level Targeting | Demonstrates how Item-Level Targeting assigns network drives based on specific conditions. |
+| 06 | Configure Drives Using Group Policy Preferences | Shows mapped drives created and managed through Group Policy Preferences. |
+| 07 | Apply GPOs to OUs | Demonstrates that the Group Policy Objects were linked to the appropriate Organizational Units. |
+| 08 | Refresh Group Policy | Shows the `gpupdate /force` command used to refresh Group Policy settings. |
+| 09 | Verify That GPOs Work | Demonstrates that the Control Panel restriction was successfully enforced on the Windows 11 client machine. |
