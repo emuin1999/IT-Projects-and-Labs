@@ -1,4 +1,4 @@
-# Project 2: Employee Computer Disconnected From Domain
+# Project: Employee Computer Disconnected From Domain
 
 ## Project Overview
 
