@@ -63,20 +63,3 @@ The user's Active Directory account was successfully unlocked, and their passwor
 The troubleshooting steps and final resolution were documented in Spiceworks, and the support ticket was closed.
 
 **Project Status:** Completed
-Project-1-Account-Lockout/
-│
-├── README.md
-│
-└── Screenshots/
-    ├── 01-user-ticket.png
-    ├── 02-account-lockout-error.png
-    ├── 03-ticket-accepted.png
-    ├── 04-unlock-user-account.png
-    ├── 05-reset-password.png
-    ├── 06-password-reset-confirmed.png
-    ├── 07-message-user.png
-    ├── 08-user-confirmation.png
-    ├── 09-password-change-required.png
-    ├── 10-password-updated.png
-    ├── 11-confirmation-acknowledged.png
-    └── 12-ticket-closed.png
