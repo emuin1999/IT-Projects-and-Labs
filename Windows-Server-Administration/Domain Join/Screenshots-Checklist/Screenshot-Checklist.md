@@ -5,9 +5,8 @@ Use these screenshots to demonstrate that the project works.
 
 | # | Screenshot | What It Proves |
 |---|---|---|
-| 01 |Installed Windows 11 On VMware | Successfully created a Windows 11 virtual machine using VMware.
-| 02 | Check Server Static IP using "ipconfig \all" | Successfully configured and verified the Windows Server's static IP address. 
-| 03 | Use server IP to add client | Used the server's static IP address to configure the client's network settings.
-| 04 | Test Client Connection with command "ping" | Used the ping command to verify communication between the two machines. 
-| 05 | Client connected to domain | Established communication between the client machine and the Windows Server Domain Controller.
-
+| 01 | Installed Windows 11 on VMware | Demonstrates that a Windows 11 virtual machine was successfully created using VMware. |
+| 02 | Check Server Static IP Using `ipconfig /all` | Shows the Windows Server's network configuration and static IP address. |
+| 03 | Use Server IP to Configure Client DNS | Demonstrates that the client's DNS settings were configured using the server's static IP address. |
+| 04 | Test Client Connection Using `ping` | Shows that the Windows 11 client can communicate with the Windows Server. |
+| 05 | Client Connected to Domain | Confirms that the Windows 11 client successfully joined the `wintip.local` domain. |
